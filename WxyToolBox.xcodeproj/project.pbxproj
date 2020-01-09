@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24703DA4233DA81B00B959AC /* WxyStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24703DA3233DA81B00B959AC /* WxyStringTool.m */; };
+		24C7394D2338A0D100489AC2 /* WxyCryptorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C7394C2338A0D100489AC2 /* WxyCryptorTool.m */; };
+		24F77E812334C89500759573 /* WxyShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F77E802334C89500759573 /* WxyShareTool.m */; };
+		24FC0F1E232F25BA00B6649F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F1D232F25BA00B6649F /* AppDelegate.m */; };
+		24FC0F21232F25BA00B6649F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F20232F25BA00B6649F /* ViewController.m */; };
+		24FC0F24232F25BA00B6649F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FC0F22232F25BA00B6649F /* Main.storyboard */; };
+		24FC0F26232F25BD00B6649F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FC0F25232F25BD00B6649F /* Assets.xcassets */; };
+		24FC0F29232F25BD00B6649F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FC0F27232F25BD00B6649F /* LaunchScreen.storyboard */; };
+		24FC0F2C232F25BD00B6649F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F2B232F25BD00B6649F /* main.m */; };
+		24FC0F36232F260800B6649F /* WxyUIScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F35232F260800B6649F /* WxyUIScreenTool.m */; };
+		24FC0F40232F261600B6649F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F3A232F261600B6649F /* Reachability.m */; };
+		24FC0F41232F261600B6649F /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F3D232F261600B6649F /* SimplePing.m */; };
+		24FC0F42232F261600B6649F /* WxyNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F3F232F261600B6649F /* WxyNetworkTool.m */; };
+		24FC0F48232F3D0300B6649F /* WxySystemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F47232F3D0300B6649F /* WxySystemTool.m */; };
+		24FEC0A12334DACE00652DA3 /* WxyColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEC0A02334DACE00652DA3 /* WxyColorTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24703DA2233DA81B00B959AC /* WxyStringTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxyStringTool.h; sourceTree = "<group>"; };
+		24703DA3233DA81B00B959AC /* WxyStringTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxyStringTool.m; sourceTree = "<group>"; };
+		24C7394B2338A0D100489AC2 /* WxyCryptorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxyCryptorTool.h; sourceTree = "<group>"; };
+		24C7394C2338A0D100489AC2 /* WxyCryptorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxyCryptorTool.m; sourceTree = "<group>"; };
+		24F77E7F2334C89500759573 /* WxyShareTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxyShareTool.h; sourceTree = "<group>"; };
+		24F77E802334C89500759573 /* WxyShareTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxyShareTool.m; sourceTree = "<group>"; };
+		24FC0F19232F25BA00B6649F /* WxyToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WxyToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FC0F1C232F25BA00B6649F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24FC0F1D232F25BA00B6649F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24FC0F1F232F25BA00B6649F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24FC0F20232F25BA00B6649F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24FC0F23232F25BA00B6649F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24FC0F25232F25BD00B6649F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24FC0F28232F25BD00B6649F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24FC0F2A232F25BD00B6649F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FC0F2B232F25BD00B6649F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24FC0F34232F260800B6649F /* WxyUIScreenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxyUIScreenTool.h; sourceTree = "<group>"; };
+		24FC0F35232F260800B6649F /* WxyUIScreenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxyUIScreenTool.m; sourceTree = "<group>"; };
+		24FC0F39232F261600B6649F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		24FC0F3A232F261600B6649F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		24FC0F3C232F261600B6649F /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		24FC0F3D232F261600B6649F /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		24FC0F3E232F261600B6649F /* WxyNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxyNetworkTool.h; sourceTree = "<group>"; };
+		24FC0F3F232F261600B6649F /* WxyNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxyNetworkTool.m; sourceTree = "<group>"; };
+		24FC0F43232F388F00B6649F /* WxyToolBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxyToolBox.h; sourceTree = "<group>"; };
+		24FC0F46232F3D0300B6649F /* WxySystemTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxySystemTool.h; sourceTree = "<group>"; };
+		24FC0F47232F3D0300B6649F /* WxySystemTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxySystemTool.m; sourceTree = "<group>"; };
+		24FEC09F2334DACE00652DA3 /* WxyColorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxyColorTool.h; sourceTree = "<group>"; };
+		24FEC0A02334DACE00652DA3 /* WxyColorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxyColorTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FC0F16232F25BA00B6649F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24703DA1233DA7FE00B959AC /* WxyStringTool */ = {
+			isa = PBXGroup;
+			children = (
+				24703DA2233DA81B00B959AC /* WxyStringTool.h */,
+				24703DA3233DA81B00B959AC /* WxyStringTool.m */,
+			);
+			path = WxyStringTool;
+			sourceTree = "<group>";
+		};
+		24C7394A2338A0A900489AC2 /* WxyCryptorTool */ = {
+			isa = PBXGroup;
+			children = (
+				24C7394B2338A0D100489AC2 /* WxyCryptorTool.h */,
+				24C7394C2338A0D100489AC2 /* WxyCryptorTool.m */,
+			);
+			path = WxyCryptorTool;
+			sourceTree = "<group>";
+		};
+		24F77E7E2334C87000759573 /* WxyShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				24F77E7F2334C89500759573 /* WxyShareTool.h */,
+				24F77E802334C89500759573 /* WxyShareTool.m */,
+			);
+			path = WxyShareTool;
+			sourceTree = "<group>";
+		};
+		24FC0F10232F25BA00B6649F = {
+			isa = PBXGroup;
+			children = (
+				24FC0F1B232F25BA00B6649F /* WxyToolBox */,
+				24FC0F1A232F25BA00B6649F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24FC0F1A232F25BA00B6649F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F19232F25BA00B6649F /* WxyToolBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24FC0F1B232F25BA00B6649F /* WxyToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F32232F25E500B6649F /* WxyToolBox */,
+				24FC0F1C232F25BA00B6649F /* AppDelegate.h */,
+				24FC0F1D232F25BA00B6649F /* AppDelegate.m */,
+				24FC0F1F232F25BA00B6649F /* ViewController.h */,
+				24FC0F20232F25BA00B6649F /* ViewController.m */,
+				24FC0F22232F25BA00B6649F /* Main.storyboard */,
+				24FC0F25232F25BD00B6649F /* Assets.xcassets */,
+				24FC0F27232F25BD00B6649F /* LaunchScreen.storyboard */,
+				24FC0F2A232F25BD00B6649F /* Info.plist */,
+				24FC0F2B232F25BD00B6649F /* main.m */,
+			);
+			path = WxyToolBox;
+			sourceTree = "<group>";
+		};
+		24FC0F32232F25E500B6649F /* WxyToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F43232F388F00B6649F /* WxyToolBox.h */,
+				24703DA1233DA7FE00B959AC /* WxyStringTool */,
+				24C7394A2338A0A900489AC2 /* WxyCryptorTool */,
+				24FEC09E2334DAB300652DA3 /* WxyColorTool */,
+				24F77E7E2334C87000759573 /* WxyShareTool */,
+				24FC0F49232F3D0E00B6649F /* WxySystemTool */,
+				24FC0F37232F261600B6649F /* WxyNetworkTool */,
+				24FC0F33232F260800B6649F /* WxyUIScreenTool */,
+			);
+			path = WxyToolBox;
+			sourceTree = "<group>";
+		};
+		24FC0F33232F260800B6649F /* WxyUIScreenTool */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F34232F260800B6649F /* WxyUIScreenTool.h */,
+				24FC0F35232F260800B6649F /* WxyUIScreenTool.m */,
+			);
+			path = WxyUIScreenTool;
+			sourceTree = "<group>";
+		};
+		24FC0F37232F261600B6649F /* WxyNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F38232F261600B6649F /* Reachability */,
+				24FC0F3B232F261600B6649F /* SimplePing */,
+				24FC0F3E232F261600B6649F /* WxyNetworkTool.h */,
+				24FC0F3F232F261600B6649F /* WxyNetworkTool.m */,
+			);
+			path = WxyNetworkTool;
+			sourceTree = "<group>";
+		};
+		24FC0F38232F261600B6649F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F39232F261600B6649F /* Reachability.h */,
+				24FC0F3A232F261600B6649F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		24FC0F3B232F261600B6649F /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F3C232F261600B6649F /* SimplePing.h */,
+				24FC0F3D232F261600B6649F /* SimplePing.m */,
+			);
+			path = SimplePing;
+			sourceTree = "<group>";
+		};
+		24FC0F49232F3D0E00B6649F /* WxySystemTool */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0F46232F3D0300B6649F /* WxySystemTool.h */,
+				24FC0F47232F3D0300B6649F /* WxySystemTool.m */,
+			);
+			path = WxySystemTool;
+			sourceTree = "<group>";
+		};
+		24FEC09E2334DAB300652DA3 /* WxyColorTool */ = {
+			isa = PBXGroup;
+			children = (
+				24FEC09F2334DACE00652DA3 /* WxyColorTool.h */,
+				24FEC0A02334DACE00652DA3 /* WxyColorTool.m */,
+			);
+			path = WxyColorTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24FC0F18232F25BA00B6649F /* WxyToolBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FC0F2F232F25BD00B6649F /* Build configuration list for PBXNativeTarget "WxyToolBox" */;
+			buildPhases = (
+				24FC0F15232F25BA00B6649F /* Sources */,
+				24FC0F16232F25BA00B6649F /* Frameworks */,
+				24FC0F17232F25BA00B6649F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WxyToolBox;
+			productName = WxyToolBox;
+			productReference = 24FC0F19232F25BA00B6649F /* WxyToolBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24FC0F11232F25BA00B6649F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = willy.wu;
+				TargetAttributes = {
+					24FC0F18232F25BA00B6649F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 24FC0F14232F25BA00B6649F /* Build configuration list for PBXProject "WxyToolBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24FC0F10232F25BA00B6649F;
+			productRefGroup = 24FC0F1A232F25BA00B6649F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24FC0F18232F25BA00B6649F /* WxyToolBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24FC0F17232F25BA00B6649F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC0F29232F25BD00B6649F /* LaunchScreen.storyboard in Resources */,
+				24FC0F26232F25BD00B6649F /* Assets.xcassets in Resources */,
+				24FC0F24232F25BA00B6649F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24FC0F15232F25BA00B6649F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C7394D2338A0D100489AC2 /* WxyCryptorTool.m in Sources */,
+				24FC0F36232F260800B6649F /* WxyUIScreenTool.m in Sources */,
+				24703DA4233DA81B00B959AC /* WxyStringTool.m in Sources */,
+				24F77E812334C89500759573 /* WxyShareTool.m in Sources */,
+				24FC0F21232F25BA00B6649F /* ViewController.m in Sources */,
+				24FC0F2C232F25BD00B6649F /* main.m in Sources */,
+				24FC0F41232F261600B6649F /* SimplePing.m in Sources */,
+				24FC0F1E232F25BA00B6649F /* AppDelegate.m in Sources */,
+				24FC0F48232F3D0300B6649F /* WxySystemTool.m in Sources */,
+				24FC0F42232F261600B6649F /* WxyNetworkTool.m in Sources */,
+				24FEC0A12334DACE00652DA3 /* WxyColorTool.m in Sources */,
+				24FC0F40232F261600B6649F /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24FC0F22232F25BA00B6649F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FC0F23232F25BA00B6649F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24FC0F27232F25BD00B6649F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FC0F28232F25BD00B6649F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24FC0F2D232F25BD00B6649F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24FC0F2E232F25BD00B6649F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24FC0F30232F25BD00B6649F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENEDJHX95;
+				INFOPLIST_FILE = WxyToolBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.why.WxyToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24FC0F31232F25BD00B6649F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENEDJHX95;
+				INFOPLIST_FILE = WxyToolBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.why.WxyToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24FC0F14232F25BA00B6649F /* Build configuration list for PBXProject "WxyToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC0F2D232F25BD00B6649F /* Debug */,
+				24FC0F2E232F25BD00B6649F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FC0F2F232F25BD00B6649F /* Build configuration list for PBXNativeTarget "WxyToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC0F30232F25BD00B6649F /* Debug */,
+				24FC0F31232F25BD00B6649F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24FC0F11232F25BA00B6649F /* Project object */;
+}
